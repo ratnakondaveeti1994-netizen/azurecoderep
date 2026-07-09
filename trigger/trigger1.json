@@ -14,15 +14,10 @@
 		"type": "ScheduleTrigger",
 		"typeProperties": {
 			"recurrence": {
-				"frequency": "Month",
+				"frequency": "Day",
 				"interval": 2,
 				"startTime": "2026-07-08T17:39:00",
-				"timeZone": "India Standard Time",
-				"schedule": {
-					"monthDays": [
-						1
-					]
-				}
+				"timeZone": "India Standard Time"
 			}
 		}
 	}
