@@ -1,0 +1,126 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfdevelopmentproject"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_ls_multicsv_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_lsmulticsvadls_accountKey": {
+			"value": ""
+		},
+		"LS_SqlServer1_password": {
+			"value": ""
+		},
+		"LS_multicsv_adls_trig_connectionString": {
+			"value": ""
+		},
+		"SSMS_SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer1_password": {
+			"value": ""
+		},
+		"la_multicsv_targadls_trig_accountKey": {
+			"value": ""
+		},
+		"ls_csv_blob_connectionString": {
+			"value": ""
+		},
+		"ls_multi_csv_adls_accountKey": {
+			"value": ""
+		},
+		"ls_multi_csv_blob_connectionString": {
+			"value": ""
+		},
+		"ls_siccodefromcsv_connectionString": {
+			"value": ""
+		},
+		"lsadls_accountKey": {
+			"value": ""
+		},
+		"lscsvadls_accountKey": {
+			"value": ""
+		},
+		"lsmulticsvblob_connectionString": {
+			"value": ""
+		},
+		"lsmutlicsvadls_accountKey": {
+			"value": ""
+		},
+		"lsmutlicsvadlsmov_accountKey": {
+			"value": ""
+		},
+		"lsmutlicsvblob_connectionString": {
+			"value": ""
+		},
+		"lstxtadls_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_lsmulticsvadls_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
+		"AzureKeyVault1_properties_typeProperties_baseUrl": {
+			"value": "https://sqlpasssecret.vault.azure.net/"
+		},
+		"LS_SqlServer1_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"LS_SqlServer1_properties_typeProperties_database": {
+			"value": "MyNewDatabase"
+		},
+		"LS_SqlServer1_properties_typeProperties_userName": {
+			"value": "userratna"
+		},
+		"SSMS_SqlServer1_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SSMS_SqlServer1_properties_typeProperties_database": {
+			"value": "MyNewDatabase"
+		},
+		"SSMS_SqlServer1_properties_typeProperties_userName": {
+			"value": "userratna"
+		},
+		"SqlServer1_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer1_properties_typeProperties_database": {
+			"value": "MyNewDatabase"
+		},
+		"SqlServer1_properties_typeProperties_userName": {
+			"value": "userratna"
+		},
+		"la_multicsv_targadls_trig_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
+		"ls_multi_csv_adls_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
+		"lsadls_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
+		"lscsvadls_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
+		"lsmutlicsvadls_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
+		"lsmutlicsvadlsmov_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		}
+	}
+}
