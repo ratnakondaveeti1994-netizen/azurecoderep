@@ -14,10 +14,55 @@
 		"AzureBlobStorage2_ls_multicsv_connectionString": {
 			"value": ""
 		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage4_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage5_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage5_mutltifiles_mov_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage6_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage7_connectionString": {
+			"value": ""
+		},
 		"AzureDataLakeStorage1_accountKey": {
 			"value": ""
 		},
+		"AzureDataLakeStorage10_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage2_accountKey": {
+			"value": ""
+		},
 		"AzureDataLakeStorage2_lsmulticsvadls_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage3_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage4_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage5_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage6_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage7_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage8_accountKey": {
+			"value": ""
+		},
+		"AzureDataLakeStorage9_accountKey": {
 			"value": ""
 		},
 		"LS_SqlServer1_password": {
@@ -30,6 +75,15 @@
 			"value": ""
 		},
 		"SqlServer1_password": {
+			"value": ""
+		},
+		"SqlServer2_password": {
+			"value": ""
+		},
+		"SqlServer2_watermark_password": {
+			"value": ""
+		},
+		"SqlServer2maxvalue_password": {
 			"value": ""
 		},
 		"la_multicsv_targadls_trig_accountKey": {
@@ -53,6 +107,9 @@
 		"lscsvadls_accountKey": {
 			"value": ""
 		},
+		"lsdifffile_locations_connectionString": {
+			"value": ""
+		},
 		"lsmulticsvblob_connectionString": {
 			"value": ""
 		},
@@ -71,11 +128,47 @@
 		"AzureDataLakeStorage1_properties_typeProperties_url": {
 			"value": "https://stracntadls.dfs.core.windows.net/"
 		},
+		"AzureDataLakeStorage10_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage2_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
 		"AzureDataLakeStorage2_lsmulticsvadls_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage3_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage4_properties_typeProperties_url": {
+			"value": "https://stracntadlscsv.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage5_properties_typeProperties_url": {
+			"value": "https://stracntadlstxt.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage6_properties_typeProperties_url": {
+			"value": "https://stracntadlscsv.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage7_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage8_properties_typeProperties_url": {
+			"value": "https://stracntadls.dfs.core.windows.net/"
+		},
+		"AzureDataLakeStorage9_properties_typeProperties_url": {
 			"value": "https://stracntadls.dfs.core.windows.net/"
 		},
 		"AzureKeyVault1_properties_typeProperties_baseUrl": {
 			"value": "https://sqlpasssecret.vault.azure.net/"
+		},
+		"AzureKeyVault2_properties_typeProperties_baseUrl": {
+			"value": "https://passkey.vault.azure.net/"
+		},
+		"AzureKeyVault3_properties_typeProperties_baseUrl": {
+			"value": "https://passkey.vault.azure.net/"
+		},
+		"AzureKeyVault4_properties_typeProperties_baseUrl": {
+			"value": "https://passkey.vault.azure.net/"
 		},
 		"LS_SqlServer1_properties_typeProperties_server": {
 			"value": "localhost\\SQLEXPRESS"
@@ -102,6 +195,33 @@
 			"value": "MyNewDatabase"
 		},
 		"SqlServer1_properties_typeProperties_userName": {
+			"value": "userratna"
+		},
+		"SqlServer2_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer2_properties_typeProperties_database": {
+			"value": "MyAzureDatabase"
+		},
+		"SqlServer2_properties_typeProperties_userName": {
+			"value": "userratna"
+		},
+		"SqlServer2_watermark_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer2_watermark_properties_typeProperties_database": {
+			"value": "MyAzureDatabase"
+		},
+		"SqlServer2_watermark_properties_typeProperties_userName": {
+			"value": "userratna"
+		},
+		"SqlServer2maxvalue_properties_typeProperties_server": {
+			"value": "localhost\\SQLEXPRESS"
+		},
+		"SqlServer2maxvalue_properties_typeProperties_database": {
+			"value": "MyAzureDatabase"
+		},
+		"SqlServer2maxvalue_properties_typeProperties_userName": {
 			"value": "userratna"
 		},
 		"la_multicsv_targadls_trig_properties_typeProperties_url": {
