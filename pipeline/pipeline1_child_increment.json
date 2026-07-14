@@ -36,7 +36,7 @@
 								"source": {
 									"type": "SqlServerSource",
 									"sqlReaderQuery": {
-										"value": "@concat('SELECT * FROM ', pipeline().parameters.TableSchema, '.', pipeline().parameters.TableName, if(equals(pipeline().parameters.LastLoadvalue, null), '', concat(' WHERE ', pipeline().parameters.WatermarkColumn, ' > ''', pipeline().parameters.LastLoadvalue, '''')))",
+										"value": "@concat(\n    'SELECT * FROM ',\n    pipeline().parameters.TableSchema, '.', pipeline().parameters.TableName,\n    if(\n        equals(pipeline().parameters.LastLoadvalue, null),\n        '', \n        concat(\n            ' WHERE ', pipeline().parameters.WatermarkColumn,\n            ' > ''', pipeline().parameters.LastLoadvalue, ''''\n        )\n    )\n)\n",
 										"type": "Expression"
 									},
 									"queryTimeout": "02:00:00",
