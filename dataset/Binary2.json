@@ -1,8 +1,8 @@
 {
-	"name": "Binary1",
+	"name": "Binary2",
 	"properties": {
 		"linkedServiceName": {
-			"referenceName": "AzureBlobStorage5_mutltifiles_mov",
+			"referenceName": "AzureBlobStorage5",
 			"type": "LinkedServiceReference"
 		},
 		"parameters": {

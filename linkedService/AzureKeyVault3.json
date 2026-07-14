@@ -1,0 +1,16 @@
+{
+	"name": "AzureKeyVault3",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"parameters": {
+			"name": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "AzureKeyVault",
+		"typeProperties": {
+			"baseUrl": "https://passkey.vault.azure.net/"
+		}
+	}
+}

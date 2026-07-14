@@ -1,11 +1,70 @@
 {
 	"name": "Parquet3",
 	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureDataLakeStorage10",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"Table_Name": {
+				"type": "string"
+			}
+		},
 		"annotations": [],
 		"type": "Parquet",
 		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": {
+					"value": "@concat(dataset().Table_Name, '_', formatDateTime(utcNow(), 'yyyyMMddHHmmss'), '.parquet')",
+					"type": "Expression"
+				},
+				"folderPath": {
+					"value": "@concat(dataset().Table_Name, '/', formatDateTime(utcNow(), 'yyyy/MM/dd'))",
+					"type": "Expression"
+				},
+				"fileSystem": "containeroutputfile"
+			},
 			"compressionCodec": "snappy"
 		},
-		"schema": []
-	}
+		"schema": [
+			{
+				"name": "1",
+				"type": "UTF8"
+			},
+			{
+				"name": "2",
+				"type": "UTF8"
+			},
+			{
+				"name": "3",
+				"type": "UTF8"
+			},
+			{
+				"name": "4",
+				"type": "UTF8"
+			},
+			{
+				"name": "5",
+				"type": "UTF8"
+			},
+			{
+				"name": "6",
+				"type": "UTF8"
+			},
+			{
+				"name": "6",
+				"type": "UTF8"
+			},
+			{
+				"name": "7",
+				"type": "UTF8"
+			},
+			{
+				"name": "8",
+				"type": "UTF8"
+			}
+		]
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
 }
