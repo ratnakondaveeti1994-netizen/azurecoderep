@@ -49,7 +49,7 @@
 		},
 		"SSMS_SqlServer1_properties_typeProperties_database": {
 			"type": "string",
-			"defaultValue": "MyNewDatabase"
+			"defaultValue": "MyAzureDatabase"
 		},
 		"SSMS_SqlServer1_properties_typeProperties_userName": {
 			"type": "string",

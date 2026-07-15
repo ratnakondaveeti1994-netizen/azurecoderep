@@ -183,7 +183,7 @@
 			"value": "localhost\\SQLEXPRESS"
 		},
 		"SSMS_SqlServer1_properties_typeProperties_database": {
-			"value": "MyNewDatabase"
+			"value": "MyAzureDatabase"
 		},
 		"SSMS_SqlServer1_properties_typeProperties_userName": {
 			"value": "userratna"
